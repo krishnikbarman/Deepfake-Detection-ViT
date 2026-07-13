@@ -1,21 +1,29 @@
-# Deepfake Detection
+# Deepfake Detection using Vision Transformers (ViT)
 
-This repository contains the implementation of a Deepfake Detection project.
+## Overview
+Deepfake Detection using Vision Transformers (ViT) is a computer vision project designed to classify images as **Real, Tampered, or AI-Generated**. The project combines Vision Transformer (ViT) architecture with Grad-CAM++ to provide pixel-level visual explanations, improving model interpretability and trust.
 
-## Project Structure
+## Features
+- Vision Transformer (ViT) based deepfake classification
+- Grad-CAM++ for pixel-level localization
+- Image preprocessing and augmentation pipeline
+- Model training and evaluation using TensorFlow/Keras
+- Explainable AI visualization
 
-```text
-Deepfake-Detection/
-├── app/
-├── checkpoints/
-├── configs/
-├── datasets/
-├── docs/
-├── experiments/
-├── models/
-├── notebooks/
-├── outputs/
-├── src/
-├── .gitignore
-├── README.md
-└── requirements.txt
+## Tech Stack
+- Python
+- TensorFlow
+- Keras
+- OpenCV
+- Vision Transformer (ViT)
+- Grad-CAM++
+
+## Results
+- Classification Accuracy: **86.11%**
+- Classes: **Real, Tampered, AI-Generated**
+
+## Repository Status
+🚧 This repository is currently being organized. Source code, documentation, and trained models will be uploaded soon.
+
+## Author
+**Krishnik Barman**

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+datasets/raw/
+datasets/processed/
+
+outputs/
+checkpoints/
+
+.ipynb_checkpoints/
+.vscode/
